@@ -1,0 +1,29 @@
+form{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    font-size: 20px;
+    margin:5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error{
+    text-align: center;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:5px;
+    font-size: 15px;
+}

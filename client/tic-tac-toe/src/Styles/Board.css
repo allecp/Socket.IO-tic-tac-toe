@@ -1,0 +1,118 @@
+
+
+
+.board-container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin-top:10px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.you{
+    display:flex;
+    align-items: center;
+}
+
+.opp{
+    display:flex;
+    align-items:center;
+}
+
+.header{
+    margin-bottom:10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+.tile:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.inactive{
+    pointer-events:none;
+}
+
+.legend{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.board{
+    margin-top:30px;
+    position:relative;
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.board.inactive .tile:nth-child(-n+3){
+    border-top:none;
+}
+
+.board .tile:nth-child(-n+3){
+    border-top:none;
+}
+
+.board.inactive .tile:nth-child(3n + 1){
+    border-left:none;
+}
+
+.board .tile:nth-child(3n + 1){
+    border-left:none;
+}
+
+.board.inactive .tile:nth-child(3n + 3){
+    border-right:none;
+}
+
+.board .tile:nth-child(3n + 3){
+    border-right:none;
+}
+
+.board.inactive .tile:nth-last-child(-n+3){
+    border-bottom:none;
+}
+
+.board .tile:nth-last-child(-n+3){
+    border-bottom:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
