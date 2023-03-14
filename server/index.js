@@ -14,7 +14,7 @@ app.use(cors()); // .use() takes in middleware functions. cors({origin: *,...}) 
 
 const io = new Server(httpServer,{ // socket io server needs http server 
     cors: {
-      origin: "http://localhost:3000"
+      origin: "https://tictactoe-kjsb.onrender.com"
     }
   });
 
