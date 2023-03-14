@@ -5,6 +5,9 @@ const http = require('http');
 const httpServer = http.createServer(app);
 const { Server } = require("socket.io"); // Server is a class
 const cors = require('cors'); 
+const { env } = require('process');
+
+
 
 app.use(cors()); // .use() takes in middleware functions. cors({origin: *,...}) is the default settings of cors which takes in no argument
 
