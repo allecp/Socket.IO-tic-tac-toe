@@ -5,7 +5,7 @@ import Board from './components/Board';
 import { io } from 'socket.io-client';
 import './Styles/App.css';
 
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect('https://tictactoe-api-swfp.onrender.com');
 
 function App() {
   const [showBoard,setBoard] = useState(false);
